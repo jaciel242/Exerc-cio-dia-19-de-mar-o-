@@ -1,0 +1,17 @@
+import java.util.scanner;
+public class ReajusteSalarial {
+  
+  public class Void main(String[] arge){
+    scanner ler=new scanner(System.in);
+    Double salario,novosalario,acrescimo;
+    System.out.println("Qual o Salario?");
+    salario= ler.nextdouble();
+    System.out.println("Qual a porcentagem");
+    acrescimo=ler.nextdouble();
+
+    novosalario= salario*(acrescimo/100+1);
+    System.out.println("O novo Salario é "+novosalario);
+    
+  }
+  
+}
