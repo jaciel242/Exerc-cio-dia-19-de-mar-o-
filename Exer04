@@ -1,0 +1,12 @@
+import java.util.scanner;
+public Class AlimentacaoGato{
+  public class Void main(String[] arge){
+    scanner ler=new scanner(System.in);
+    Double pesoracao,gramas,estoque;
+    System.out.println("Qual peso do saco de raçao?");
+    pesoracao=ler.next.Double();
+    System.out.println("Quantas gramas de raçao colocar para o gato");
+    gramas=ler.next.Double();
+    estoque={[(gramas*2)/1000]*5}-pesoracao;
+    System.out.println("Tem"+estoque+"kilos de ração")
+}
