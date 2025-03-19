@@ -1,0 +1,13 @@
+import java.util.scanner;
+public class ReajusteSalarial {
+  
+  public class Void main(String[] arge){
+    scanner ler=new scanner(System.in);
+    Double salario,novosalario;
+    System.out.println("Qual o Salario?");
+    salario= ler.nextdouble();
+    novosalario= salario*1.25;
+    System.out.println("O novo Salario é "+});
+  }
+  
+}
