@@ -1,0 +1,22 @@
+import java.util.scanner;
+public class idade{
+  
+  public class Void main(String[] arge){
+    scanner ler=new scanner(System.in);
+    Double anonacimento,anoatual,mes,dias,semana,idade;
+    System.out.println("digite seu ano de nacinento?");
+    anonacimento= ler.nextdouble();
+    ystem.out.println("digite o ano atual?");
+    anoatual= ler.nextdouble();
+    idade= anoatual-anonacimento;
+    System.out.println("A sua idade é "+idade"anos")
+    mes=idade/12;
+    System.out.println("Você tem"+mes+"semanas");
+    semana=(idade*365)/7;
+    System.out.println("Você tem"+semana+"semanas");
+    dias=idade*365
+    System.out.println("Você tem"+dias+"dias");
+    
+  }
+    
+}
