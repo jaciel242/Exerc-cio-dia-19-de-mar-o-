@@ -1,0 +1,15 @@
+import java.util.scanner;
+public class ReajusteSalarial {
+  static void acrecimo(Double salarioatual){
+    System.out.println(salarioatual*0.25)
+    static void novosalario(Double salarioatual,acrecimo){
+      System.out.println(salarioatual+acrecimo)
+    }
+  }
+  System.out.println("Seja bem vindo");
+  System.out.println("digitar o salario atual do seu colaborador");
+  Double.salarioatual= ler nextdouble();
+  System.out.println("O novo salatio e");
+  novosalario(salarioatual,acrecimo);
+  
+}
