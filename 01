@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner ler=new Scanner(System.in);
+        System.out.println("Qual o Salario?");
+        double salario = ler.nextDouble();
+        double novosalario = salario*1.25;
+        System.out.println( novosalario);
+
+    }
+}
