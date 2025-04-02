@@ -1,0 +1,33 @@
+ackage model;
+
+import org.w3c.dom.ls.LSOutput;
+
+public class Pessoa {
+
+    public String nome;
+    public int  idade;
+
+    public void apresentar(){
+        System.out.println("Meu nome é :" + this.nome +" tenho :"+this.idade+ " anos");
+
+    }
+}
+
+
+
+import model.Pessoa;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Pessoa p = new Pessoa();
+        p.nome = "jaciel";
+        p.idade = 20;
+
+
+        p.apresentar();
+
+
+
+    }
+}
